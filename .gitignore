@@ -1,0 +1,43 @@
+## Игнорируемые файлы сборки
+bin/
+obj/
+
+## Папки пользователей Visual Studio и временные файлы
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+## Файлы JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+*._ReSharper*/
+*.DotSettings.user
+
+## Пакеты NuGet
+*.nupkg
+*.snupkg
+**/packages/
+!**/packages/build/
+
+## Локальные настройки конфигурации (чтобы случайно не залить секреты)
+appsettings.Development.json
+appsettings.local.json
+secrets.json
+local.settings.json
+
+## Временные файлы тестирования
+TestResults/
+*.coverage
+*.coveragexml
+
+## Системные файлы macOS / Windows
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
